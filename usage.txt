@@ -1,0 +1,42 @@
+1+1
+> 2
+ans
+> 2
+x = 1+2
+> 3
+\clip
+> "3" copied to clipboard
+x
+> 3
+2//8
+> 8/5 = 6.4
+square(x) = x*x
+> learned 'square(x)'
+square(5)
+> 25
+x /+ y = x/(y+1)
+> learned '/+'
+4 /+ 1
+> 2
+2e4/3
+> 20000/3 = 6666.66667
+\format decimal 2
+> set output formatting to "decimal 2"
+ans
+> 6666.67
+\format + frac
+> set output formatting to "decimal 2 + frac"
+ans
+> 6666.67 = 20000/3
+\use SI
+> using feature 'SI'
+20G/3M
+> 6666.67 = 20000/3
+\format SI 3
+> set output formatting to "SI 3"
+ans
+> 6.667k
+\use units
+> using feature 'units'
+10V/2A
+> 5Ω
